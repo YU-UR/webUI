@@ -1,0 +1,84 @@
+body{
+	margin: 0;
+	background: #333;
+}
+#title{
+	position: absolute;
+	width: 40%;
+	height: 10%;
+	top: 0;
+	left: 30%;
+	background-color: antiquewhite;
+	color: white;
+	font-size: 30px;
+	/* 弹性布局 */
+	display: flex; 
+	align-items: center;
+	justify-content: center;
+}
+#time{
+	position: absolute;
+	height: 10%;
+	top: 5%;
+	color: black;
+	right: 2%;
+	font-size: 20px;
+}
+#c1{
+	position: absolute;
+	width: 40%;
+	height: 30%;
+	top: 10%;
+	left: 30%;
+	/* background-color:aqua; */
+}
+.num{
+	width: 25%;
+	float: left;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	color: gold;
+	font-size: 20px;
+}
+#c2{
+	position: absolute;
+	width: 40%;
+	height: 60%;
+	top: 40%;
+	left: 30%;
+	background-color: aquamarine;
+}
+#l1{
+	position: absolute;
+	width: 30%;
+	height: 45%;
+	top: 10%;
+	left: 0;
+	background-color: azure;
+}
+#l2{
+	position: absolute;
+	width: 30%;
+	height: 45%;
+	top: 55%;
+	left: 0;
+	background-color: cadetblue;
+}
+
+#r1{
+	position: absolute;
+	width: 30%;
+	height: 45%;
+	top: 10%;
+	left: 70%;
+	background-color: darkkhaki;
+}
+#r2{
+	position: absolute;
+	width: 30%;
+	height: 45%;
+	top: 55%;
+	left: 70%;
+	background-color: darkgoldenrod;
+}
